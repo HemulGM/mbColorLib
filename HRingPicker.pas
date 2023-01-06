@@ -5,7 +5,7 @@ interface
 {$I mxs.inc}
 
 uses
-  Windows, Messages, SysUtils, Classes, Controls, Graphics, Math, RGBHSVUtils,
+  Windows, Types, Messages, SysUtils, Classes, Controls, Graphics, Math, RGBHSVUtils,
   Forms, {IFDEF DELPHI_7_UP Themes, $ENDIF} HTMLColors, mbColorPickerControl,
   Scanlines;
 

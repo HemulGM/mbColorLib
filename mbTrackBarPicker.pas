@@ -6,7 +6,7 @@ interface
 
 uses
  Windows, Messages, SysUtils, Classes, Controls, Graphics, Forms,
- {$IFDEF DELPHI_7_UP} Themes, {$ENDIF} ExtCtrls, PalUtils;
+ {$IFDEF DELPHI_7_UP} Themes, {$ENDIF} ExtCtrls, PalUtils, System.Types;
 
 const
  TBA_Resize = 0;

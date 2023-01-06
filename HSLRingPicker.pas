@@ -314,9 +314,11 @@ begin
 end;
 
 procedure THSLRingPicker.PaintParentBack;
+{$IFDEF DELPHI_7_UP}
 var
  MemDC: HDC;
  OldBMP: HBITMAP;
+{$ENDIF}
 begin
  if PBack = nil then
   begin

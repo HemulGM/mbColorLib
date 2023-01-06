@@ -5,7 +5,7 @@ interface
 {$I mxs.inc}
 
 uses
-  Windows, Messages, SysUtils, Classes, Graphics, Controls, Forms, ExtCtrls,
+  Windows, Messages, Types, SysUtils, Classes, Graphics, Controls, Forms, ExtCtrls,
   StdCtrls, PalUtils;
 
 const

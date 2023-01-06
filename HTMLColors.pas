@@ -129,6 +129,7 @@ function IsWebSafe(c: TColor): boolean; overload;
 function GetWebSafe(C: TColor): TColor;
 
 implementation
+uses System.Variants;
 
 var
  WS: array [0..255] of byte;
